@@ -27,6 +27,9 @@
 
         echo '<h1>Tipo de sangre: </h1>'.$Animal->getTipoSangre();
         echo '<br>';
+        $Animal->getTienePulgas();
+        echo '<br>';
+        $Animal->getJuega();
         echo '<br>';
         echo '<a class="nav-link" href="http://localhost:8080/guia_2/">Home</a>';
 
